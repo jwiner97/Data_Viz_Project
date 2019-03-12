@@ -1,4 +1,4 @@
-Group Project Write-Up
+# Group Project Write-Up
 What’s Causing the Opioid Crisis?
 By Team Git ‘er Done
 Chelsea Monahan, Jason Winer, Holly Bergen, Robert Sayler
@@ -7,16 +7,16 @@ Presentation: https://docs.google.com/presentation/d/1WLSUhy88YHrzHDAVwsQzmrZIzP
 Our team looked at the opioid crisis in the United States, and attempted to determine if there were any variables that have an affect on predicting what is likely to cause opioid addiction. We approached this topic by having each team member find a potential variable of concern, and then do the relevant API pull or csv download followed by visualizations and analysis for their area of focus. We looked at the following questions:
 
 
-- Does the rate of opioid prescriptions in a county affect the opioid overdose death rate?
-- Does the education level in a county affect the rate of opioid prescriptions?
-- Do poverty rates affect the rate of opioid overdose deaths?
-- Did unemployment rates during the Great Recession affect current overdose rates?
+- [Does the rate of opioid prescriptions in a county affect the opioid overdose death rate?](https://github.com/jwiner97/Data_Viz_Project/blob/master/Prescription%20Rate%20Analysis/Prescription%20Rate%20Analysis.ipynb)
+- [Does the education level in a county affect the rate of opioid prescriptions?](https://github.com/jwiner97/Data_Viz_Project/blob/master/Education%20Analysis/education_level_analysis.ipynb)
+- [Do poverty rates affect the rate of opioid overdose deaths?](https://github.com/jwiner97/Data_Viz_Project/blob/master/Income%20Demographics/IncomeDemographicsOpioids.ipynb)
+- [Did unemployment rates during the Great Recession affect current overdose rates?](https://github.com/jwiner97/Data_Viz_Project/blob/master/Economic%20Downturn%20Analysis/Economic%20downturn%20and%20Opioid%20epidemic.ipynb)
 
 We used a variety of sources in order to get all of the data we needed, including the Census API, the Bureau of Labor Statistics, the Kaiser Family Foundation in Partnership with the CDC, the Center for Disease Control Opioid Prescription Rate data, and the Google Maps API. Our results and analysis follow.
 
 
 
-Does the rate of opioid prescriptions in a county affect the opioid overdose death rate?
+## Does the rate of opioid prescriptions in a county affect the opioid overdose death rate?
 
 Opioids are responsible for a large portion of total overdose deaths in the US. In 2006 they accounted for 50% of all overdose deaths and rose to 67% by 2017
 
@@ -64,7 +64,7 @@ Limitations
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Do income demographics affect the rate of opioid overdose deaths?
+## Do income demographics affect the rate of opioid overdose deaths?
 
 We hypothesized that there were likely areas of the United States that were more adversely affected by the spike in opioid-related deaths. To determine if there was a correlation we extracted data by county from the American Community Survey 5-Year Data provided by the US Census, including categories such as Per Capita Income, Unemployment Rate, and Poverty Rate for the year 2017. 
 
@@ -127,7 +127,7 @@ Limitations
 
 
 
-Does the education level in a county affect the rate of opioid prescriptions?
+## Does the education level in a county affect the rate of opioid prescriptions?
 
 As discussed previously, 1 in 16 surgical patients who are prescribed opioids for pain management becomes a long-term user. Taking this into consideration, we decided to look at a possible correlation between weighted education levels in a county to the prescription rate in that same county, wondering whether those with a lower level of education are less likely to push back on a doctor’s prescription for the drug. Our hypothesis was that counties with a lower weighted education level would be more likely to have a higher prescription rate. 
 
@@ -169,7 +169,7 @@ To be absolutely sure, we also plotted the two variables against each other to s
   
 
 
-Did unemployment rates during the Great Recession affect current overdose rates? 
+## Did unemployment rates during the Great Recession affect current overdose rates? 
 
 Some of the cities hit hardest by the Great Recession never recovered. These cities saw over 20% decreases in employment and over 20% poverty rates. We decided to look at how those factors might impact the opioid crisis in these areas. Our hypothesis was that those areas would see worse opioid death rates than the rest of their state. To do this we analyzed the county unemployment levels from 2006-2017 and the opioid deaths in those counties over the same period. We then compared the data for the state and the county in 2017 to see if there was in fact a higher death rate in those counties. 
 First we identified the cities that were hit the hardest during the Great Recession based on the current state of their economies. This information came a USA Today article that identifies cities that never recovered from the economic downturn. 
