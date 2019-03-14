@@ -28,8 +28,7 @@ Opioids are responsible for a large portion of total overdose deaths in the US. 
 In looking at the total opioid prescribing rate in the US, we can see that in 2012 there was a peak in prescription rate, an increase of around 35 million from 2006. In the subsequent years following, that rate fell dramatically.
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_80488B502738A04D8EFAD289770E592A4C8D548E33C25E39F47ADDC9F608E713_1552161996069_image.png)
-
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_80488B502738A04D8EFAD289770E592A4C8D548E33C25E39F47ADDC9F608E713_1552519472474_image.png)
 
 
 However, this did not mean a decline in opioid-related deaths. In fact, we can see that there was a sharp increase from 2012 to 2016, following the peak in prescription rate.
